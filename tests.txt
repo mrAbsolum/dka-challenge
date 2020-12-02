@@ -1,0 +1,32 @@
+UI component:
+    UI renders AutoComlete component:                                                                           OK
+    Text can be input to AutoCoomplete input field:                                                             OK
+    No search is done before input length is 3 chr:                                                             OK
+    Show loading in input:                                                                                      OK
+    When results are returned, see list of results:                                                             OK
+    Se indication of result being user or repo:                                                                 OK                                
+    Selection opens a new tab and navigates to selected page:                                                   OK
+    Empty serch result disables navigation:                                                                     OK
+
+Querys:
+    Given search query is encoded to avoid errors in fetch:                                                     OK
+    REST GET requests are done asynchronously:                                                                  OK
+    GET request status is checked after request completed:                                                      OK
+        Cross check with Postman, checked that response property "total_count" matches given search query
+            Users:
+                Mike:                                                                                           OK
+                Mike-north:                                                                                     OK
+                Johnhammond:                                                                                    OK
+                johnhammonddcita                                                                                OK
+                castor-lavonen                                                                                  OK
+
+            Repos:
+                open:                                                                                           OK
+                opensap-ui5:                                                                                    OK
+                recastai:                                                                                       OK
+                teamDaily:                                                                                      OK
+Errors:
+    Search for users returns empty:                                                                             OK
+    Search for repos returns empty:                                                                             OK
+    Let user know when rate limit is exceeded:                                                                  OK
+teamDaily
