@@ -29,4 +29,3 @@ Errors:
     Search for users returns empty:                                                                             OK
     Search for repos returns empty:                                                                             OK
     Let user know when rate limit is exceeded:                                                                  OK
-teamDaily

@@ -1,5 +1,5 @@
 {
-  "title": "Material demo",
+  "title": "DK&A Challenge",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -20,8 +20,8 @@
     "@material-ui/lab": "latest",
     "@material-ui/core": "latest"
   },
-  "name": "material-demo-forked",
-  "version": "0.0.0",
+  "name": "autocomplete",
+  "version": "1.0.0",
   "browserslist": {
     "production": [
       ">0.2%",
